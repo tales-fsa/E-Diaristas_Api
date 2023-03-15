@@ -34,9 +34,9 @@ class AuthServiceProvider extends ServiceProvider
         Gate::define('dono-diaria', function (User $user, Diaria $diaria){
             if ($user->tipo_usuario == 1){
                 return  $diaria->cliente_id === $user->id;
-            }    
+            }
 
-            return true;
+            return $diaria->diarista_id === $user->id;
         });
     }
 }
