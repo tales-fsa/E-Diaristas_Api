@@ -29,7 +29,7 @@ class Diaria extends JsonResource
             "tempo_atendimento" => $this->tempo_atendimento,
             "preco" => $this->preco,
 
-            "logradouro" => $this->logardouro,
+            "logradouro" => $this->logradouro,
             "numero" => $this->numero,
             "complemento" => $this->complemento,
             "bairro" => $this->bairro,
