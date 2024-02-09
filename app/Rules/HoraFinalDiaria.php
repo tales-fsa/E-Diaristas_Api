@@ -3,8 +3,8 @@
 namespace App\Rules;
 
 use Carbon\CarbonImmutable;
-use Illuminate\Contracts\Validation\Rule;
 use Illuminate\Http\Request;
+use Illuminate\Contracts\Validation\Rule;
 
 class HoraFinalDiaria implements Rule
 {
